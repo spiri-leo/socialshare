@@ -1,0 +1,27 @@
+/*
+
+  Social Icons
+  
+  This file contains for the element with one line, and this file contains for more websites,
+  and show cursor on social icons.
+  
+*/
+
+/* Start */
+
+/* 
+   Note for site developers (programmers): Please rename div name to (socialIcons). 
+   And please add social block code on (<div id="socialIcons">). This may be incorrect design. 
+*/
+
+  /* helped: http://www.bolshoyvopros.ru/questions/3622282-kak-razmestit-tri-bloka-div-v-odnu-stroku-s-zadannoj-shirinoj.html */
+    .socialIcons {
+	  display: flex;
+	  justify-content: space-between;
+     }
+  /* Show cursor on social icons */
+	 .socialIcons img {
+		cursor: pointer;
+	 }
+
+/* End */
