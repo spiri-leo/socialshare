@@ -15,12 +15,12 @@
 */
 
   /* helped: http://www.bolshoyvopros.ru/questions/3622282-kak-razmestit-tri-bloka-div-v-odnu-stroku-s-zadannoj-shirinoj.html */
-    .socialIcons {
+     #socialIcons {
 	  display: flex;
 	  justify-content: space-between;
      }
   /* Show cursor on social icons */
-	 .socialIcons img {
+	 #socialIcons img {
 		cursor: pointer;
 	 }
 
